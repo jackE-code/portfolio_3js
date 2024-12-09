@@ -1,0 +1,52 @@
+{
+  "title": "Resume",
+  "name": "james_hawkins_portfolio",
+  "version": "5.0.5",
+  "scripts": {
+    "start": "gulp watch",
+    "build": "gulp build"
+  },
+  "description": "Portfolio site for James Hawkins",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  "homepage": "http://jameshawkins.com",
+  "license": "MIT",
+  "author": "James Hawkins",
+  "contributors": [
+    "James Hawkins (http://jameshawkins.com/)",
+    "David Miller (http://davidmiller.io/)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameshawkinsjr/portfolio.git"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.8.1",
+    "bootstrap": "4.3.1",
+    "jquery": "^3.5.0",
+    "jquery.easing": "^1.4.1",
+    "startbootstrap-resume": "^7.0.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "del": "4.0.0",
+    "gulp": "4.0.0",
+    "gulp-autoprefixer": "6.0.0",
+    "gulp-clean-css": "4.0.0",
+    "gulp-header": "2.0.7",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "3.0.2",
+    "merge-stream": "^1.0.1",
+    "sass": "^1.54.3",
+    "tar": ">=4.4.2"
+  },
+  "main": "gulpfile.js"
+}
